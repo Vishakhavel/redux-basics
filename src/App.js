@@ -16,6 +16,7 @@ function App() {
     <div>
       <Space />
       <One />
+      <Space />
 
       {/* <h1>Counter App</h1>
       <h2>{counter}</h2>
