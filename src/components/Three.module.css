@@ -1,0 +1,14 @@
+.square {
+  background-color: yellow;
+  width: 30vw;
+  height: 30vw;
+  margin: auto;
+  /* padding-top: 10rem; */
+}
+
+.squareText {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}

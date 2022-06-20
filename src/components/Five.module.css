@@ -1,0 +1,28 @@
+.square {
+  background-color: pink;
+  width: 10vw;
+  height: 10vw;
+  margin: auto;
+  /* padding-top: 10rem; */
+  width: 50%;
+}
+
+.squareText {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.addButton {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}

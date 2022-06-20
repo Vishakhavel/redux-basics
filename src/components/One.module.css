@@ -1,0 +1,35 @@
+.square {
+  background-color: aquamarine;
+  width: 50vw;
+  height: 50vw;
+  margin: auto;
+  /* padding-top: 10rem; */
+}
+
+.customInput {
+  margin: auto;
+  display: block;
+  width: 80%;
+  height: 20px;
+  padding: 10px;
+}
+
+.squareText {
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding: 10px;
+}
+
+.subButton {
+  background-color: purple;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 10px;
+}
