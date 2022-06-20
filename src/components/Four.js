@@ -9,7 +9,7 @@ const Four = () => {
       <div className={styles.square}>
         <div className={styles.squareText}>
           {' '}
-          Component Four <h3>STATE{counter}</h3>
+          Component Four <h3>STATE: {counter}</h3>
         </div>
 
         <Five />

@@ -18,10 +18,10 @@ const Five = () => {
       <div className={styles.square}>
         <div className={styles.squareText}>
           Component Five <h3>STATE: {counter}</h3>
+          <button className={styles.addButton} onClick={increment}>
+            +
+          </button>
         </div>
-        <button className={styles.addButton} onClick={increment}>
-          +
-        </button>
       </div>
 
       {/* <button onClick={decrement}>Sub</button> */}

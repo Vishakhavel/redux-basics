@@ -18,6 +18,9 @@ const One = () => {
       <div className={styles.square}>
         <div className={styles.squareText}>
           Component One <h3>STATE: {counter}</h3>
+          <button className={styles.subButton} onClick={decrement}>
+            -
+          </button>
         </div>
 
         <Two />
@@ -28,9 +31,6 @@ const One = () => {
         /> */}
 
         {/* <button onClick={increment}>Add</button> */}
-        <button className={styles.subButton} onClick={decrement}>
-          Subtract Button from Component One
-        </button>
       </div>
     </Fragment>
   )
